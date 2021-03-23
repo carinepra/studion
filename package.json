@@ -1,0 +1,27 @@
+{
+  "name": "studion",
+  "version": "1.0.0",
+  "description": "Homepage for studion",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carinepra/studion.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "author": "Carine Pra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carinepra/studion/issues"
+  },
+  "homepage": "https://github.com/carinepra/studion#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
