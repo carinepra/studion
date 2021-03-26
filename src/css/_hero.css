@@ -3,6 +3,13 @@
     height: 34.625rem;
 }
 
+.container__hero{
+    width: 100vw;
+    height: 27rem;
+    position: absolute;
+    align-items: center;
+}
+
 .hero__background{
     position: absolute;
     z-index: -1;
