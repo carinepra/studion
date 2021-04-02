@@ -7,15 +7,17 @@
     width: 100vw;
     height: 27rem;
     position: absolute;
-    align-items: center;
+    top: calc(34.625rem - 27rem);
+    left: 13rem;
 }
 
 .hero__background{
     position: absolute;
     z-index: -1;
-    object-fit: contain;
+    object-fit: cover;
     object-position: center;
-    
+    height: 34.625rem;
+    width: 100vw;
 }
 
 .hero__copy{

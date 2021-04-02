@@ -5,4 +5,54 @@
 
 .company__image_man{
     max-height: 40rem;
+    margin-top: 2.875rem;
+}
+
+.company__container__info{
+    margin-right: 9.125rem;
+}
+
+.company__container__info h3{
+    margin-top: 7.25rem;
+    margin-bottom: 3.06rem;
+    font-weight: 500;
+}
+
+.company__container__info p{
+    margin-bottom: 2.93rem;
+}
+
+.logos{
+    background-color: var(--color-primary);
+    height: 34.8125rem;
+}
+
+.logos__container{
+    text-align: center;
+    padding-top: 4.5rem;
+}
+
+.logos__container h3{
+    margin: 0;
+    font-weight: 600;
+}
+
+.logos__image{
+    margin-top: 4rem;
+
+}
+
+.video{
+    height: 54.6875rem;
+}
+
+.video__container{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.video__container__player{
+    margin: 0;
+    height: calc(54.6875rem - 10rem - 0.3rem);
+    width: 100%;
 }
