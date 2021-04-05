@@ -3,6 +3,8 @@
     grid-template-columns: 1fr 2fr 1fr;
     padding: 2.25rem;
     align-items: center;
+    border-bottom: .1rem solid #0003;
+    cursor: pointer;
 }
 
 .events__image{
@@ -14,14 +16,13 @@
 .events__copy__date{
     display: grid;
     grid-template-columns: 1.625rem auto;
-    gap: 0.75rem;
     align-items: center;
 }
 
 .events__copy__date p{
     font-size: .8rem;
     font-weight: 700;
-    fon
+    letter-spacing: 0.15rem;
 }
 .events__copy h3{
     text-transform: uppercase;
@@ -30,7 +31,12 @@
 }
 
 .events__btn{
-    justify-items: center;
+    justify-self: end;
+    white-space: nowrap;
+}
+
+.btn--event{
+    font-size: 0.8rem;
 }
 
 .fa-clock{
