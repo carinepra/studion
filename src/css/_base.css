@@ -6,14 +6,14 @@
 /* Mobile */
 :root {
   font-family: 'Montserrat', sans-serif;
-  font-size: 4.25vw;
+  font-size: 4vw;
   color: var(--color-copy);
 }
 
 /* Tablet */
 @media screen and (min-width: 720px){
   :root {
-    font-size: 2.22vw;
+    font-size: 2vw;
   }
 }
 
@@ -35,8 +35,14 @@ footer {
 }
 
 .container {
-  max-width: 1140px;
+  max-width: 80vw;
   margin: 0 auto;
+}
+
+@media screen and (min-width: 1280px) {
+    .container{
+      max-width: 90vw;
+    }    
 }
 
 ul {

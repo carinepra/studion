@@ -14,6 +14,8 @@ $(document).ready(() => {
         nextArrow: '<button type="button" class="slick-next slider__next-arrow">Next</button>',
     };
     $('.slider').slick(slickOptions);
+
+    
     $('.footer_form-button').on('click', () => {
     const email = $('#email').val();
     Email.send({
